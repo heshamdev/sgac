@@ -13,7 +13,7 @@
           >
             <div class="col s12" style="position: relative;">
               <div v-if="i == 0" class="right">
-                <img src="airport.png">
+                <img src="/airport.png">
               </div>
               <div v-if="i == 0" style="color: #212121;">
                 <h3><b>SGAC consulting</b></h3>
@@ -33,16 +33,18 @@
               </v-col>
               <div v-if="i == 1" style="color: white;">
                 <h1 class="black-text">
-                  <b style="color: #fcb414; background-color: rgba(0,0,0,0.2); border-radius: 10px;" class="col">Geo-TechnicalWork</b>
+                  <b style="color: #fcb414; border-radius: 10px;" class="col">Geo TechnicalWork</b>
                 </h1>
                 <div
                   class="container hide-on-large-only"
                   style="
-                 position: absolute; bottom: -378px;"
+                 position: absolute; bottom: -368px;"
                 >
-                  <span style="text-align: justify;text-justify: inter-word;">
+                 <p>
+                    <v-col style="color: white; text-align: justify;text-justify: inter-word;">
                     We use principles of soil and rock mechanics to investigate subsurface conditions and materials; determine the relevant physical/mechanical and chemical properties of these materials; evaluate stability of natural slopes and man-made soil deposits; assess risks posed by site conditions.
-                  </span>
+                  </v-col>
+                 </p>
                 </div>
               </div>
               <div v-if="i == 2" class="" style="color: white;">
@@ -163,7 +165,7 @@
               <v-col sm="12" lg="5" align="center" justify="center">
                 <v-row>
                   <v-col>
-                    <v-img src="silkroad.png" />
+                    <v-img src="/silkroad.png" />
                   </v-col>
                   <v-col>
                     <b> Integration of Egypt’s Transportation Plans 2030 with the New Silk Road Project</b>
@@ -190,7 +192,6 @@
                 style="border-radius: 10px;"
                 fixed-tabs
                 background-color="indgo"
-                dark
               >
                 <v-tab>
                   Roads
@@ -218,7 +219,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="middle ring.jpg"
+                    src="/middle ring.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -315,7 +316,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="marina.png"
+                    src="/marina.png"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -409,7 +410,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="north90.jpg"
+                    src="/north90.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -504,7 +505,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="mnagib1.jpg"
+                    src="/mnagib1.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -601,7 +602,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="teneda3.jpg"
+                    src="/teneda3.jpg"
                     style="height: 250px;"
                     @click="index2 = 0"
                   >
@@ -697,7 +698,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="assuit1.jpeg"
+                    src="/assuit1.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -793,7 +794,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="balanah.jpg"
+                    src="/balanah.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -888,7 +889,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="comp.jpg"
+                    src="/comp.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -991,7 +992,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="kafrelshekh.JPG"
+                    src="/kafrelshekh.JPG"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1086,7 +1087,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="3july.jpg"
+                    src="/3july.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1180,7 +1181,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="4bridge.jpg"
+                    src="/4bridge.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1278,7 +1279,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="mnagib.jpg"
+                    src="/mnagib.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1378,7 +1379,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="maint.jpg"
+                    src="/maint.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1479,7 +1480,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="lepassage.jpeg"
+                    src="/lepassage.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1579,7 +1580,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="academy.jpg"
+                    src="/academy.jpg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1624,7 +1625,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="capital.jpeg"
+                    src="/capital.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1723,7 +1724,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="gouna airport.jpeg"
+                    src="/gouna airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1836,7 +1837,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="cairo airport.png"
+                    src="/cairo airport.png"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1879,7 +1880,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="assiut airport.jpeg"
+                    src="/assiut airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1918,7 +1919,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="alamin airport.jpeg"
+                    src="/alamin airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1957,7 +1958,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="airport city.jpeg"
+                    src="/airport city.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -1994,7 +1995,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="ras shokair.jpeg"
+                    src="/ras shokair.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2031,7 +2032,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="abo el gharadik.jpeg"
+                    src="/abo el gharadik.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2068,7 +2069,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="gabal elzet.jpeg"
+                    src="/gabal elzet.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2107,7 +2108,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="aswan airport.jpeg"
+                    src="/aswan airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2148,7 +2149,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="gouna road airport.jpeg"
+                    src="/gouna road airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2187,7 +2188,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="airfield.jpeg"
+                    src="/airfield.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2226,7 +2227,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="october airport.jpeg"
+                    src="/october airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2269,7 +2270,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="sohag airport.jpeg"
+                    src="/sohag airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2310,7 +2311,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="gouna road airport.jpeg"
+                    src="/gouna road airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2351,7 +2352,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="october sport.jpeg"
+                    src="/october sport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2393,7 +2394,7 @@
                 >
                   <v-img
                     class="white--text align-end"
-                    src="october airport.jpeg"
+                    src="/october airport.jpeg"
                     style="height: 250px;"
                   >
                     <v-card-title style="background-color: rgba(0, 0, 0, 0.5);" class="pa-2">
@@ -2439,7 +2440,7 @@
           <v-col sm="12" lg="2">
             <v-container>
               <v-col align="center" justify="center">
-                <v-img src="airport.png" width="100" />
+                <v-img src="/airport.png" width="100" />
               </v-col>
             </v-container>
           </v-col>
@@ -2471,7 +2472,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="surv1.jpg"
+              src="/surv1.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2487,7 +2488,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="go1.jpg"
+              src="/go1.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2503,7 +2504,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="struct.jpg"
+              src="/struct.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2521,7 +2522,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="electro.jpg"
+              src="/electro.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2537,7 +2538,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="tech.jpg"
+              src="/tech.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2553,7 +2554,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="doc.jpg"
+              src="/doc.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2571,7 +2572,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="net.jpg"
+              src="/net.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2587,7 +2588,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="land.jpg"
+              src="/land.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2603,7 +2604,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="super.jpg"
+              src="/super.jpg"
               style="height: 250px;"
             />
             <v-card-subtitle class="pb-0 text-center">
@@ -2622,7 +2623,7 @@
                 <v-row>
                   <v-img
                     class="white--text align-end"
-                    src="high.jpg"
+                    src="/high.jpg"
                     max-width="250"
                   />
                   </v-img>
@@ -2667,7 +2668,7 @@
                     <v-row>
                       <v-img
                         class="white--text align-end"
-                        src="runwayserv.jpg"
+                        src="/runwayserv.jpg"
                         max-width="250"
                       />
                       </v-img>
@@ -2679,7 +2680,7 @@
                     <v-row>
                       <v-img
                         class="white--text align-end"
-                        src="aeroplan.jpg"
+                        src="/aeroplan.jpg"
                         max-width="250"
                       />
                       </v-img>
@@ -2740,7 +2741,7 @@
                     <v-row>
                       <v-img
                         class="white--text align-end"
-                        src="Bridges.jpg"
+                        src="/Bridges.jpg"
                         max-width="250"
                       />
                       </v-img>
@@ -2806,7 +2807,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/sodic.png"
+                  src="/clients/sodic.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">SODIC</b></h3>
@@ -2821,7 +2822,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/vibro.png"
+                  src="/clients/vibro.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">VIBRO</b></h3>
@@ -2836,7 +2837,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/arab tec.png"
+                  src="/clients/arab tec.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ARAB TECH</b></h3>
@@ -2851,7 +2852,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="gouna.png"
+                  src="/gouna.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">El GOUNA</b></h3>
@@ -2868,7 +2869,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/cairo international airport.png"
+                  src="/clients/cairo international airport.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">CAC</b></h3>
@@ -2883,7 +2884,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="orascom.png"
+                  src="/orascom.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ORASCOM</b></h3>
@@ -2898,7 +2899,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="samco.png"
+                  src="/samco.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">SAMCO</b></h3>
@@ -2930,7 +2931,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/el nile.png"
+                  src="/clients/el nile.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">NILE FOR GENERAL ROADS PROJECTS</b></h3>
@@ -2945,7 +2946,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/el hay2a el handsya ll kwat l mosalaha.png"
+                  src="/clients/el hay2a el handsya ll kwat l mosalaha.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ENGINEERING AUTHORITY OF THE ARMED FORCES</b></h3>
@@ -2960,7 +2961,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/arabco.png"
+                  src="/clients/arabco.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ARABCO</b></h3>
@@ -2975,7 +2976,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/bin sammar.png"
+                  src="/clients/bin sammar.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">BINSAMAAR</b></h3>
@@ -2992,7 +2993,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/el salam.png"
+                  src="/clients/el salam.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">AL SALAM</b></h3>
@@ -3007,7 +3008,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/el sherka el 3almya.png"
+                  src="/clients/el sherka el 3almya.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ALMIAH</b></h3>
@@ -3022,7 +3023,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="clients/abo 3areeda.png"
+                  src="/clients/abo 3areeda.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">ABUARIDA SONS</b></h3>
@@ -3052,7 +3053,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="fabris.jpeg"
+                  src="/fabris.jpeg"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">Fabris & Partners</b></h3>
@@ -3067,7 +3068,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="uts.png"
+                  src="/uts.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">United ATS</b></h3>
@@ -3082,7 +3083,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="ital.png"
+                  src="/ital.png"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">FERROVIE ITALIANE</b></h3>
@@ -3099,7 +3100,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="pinna.jpeg"
+                  src="/pinna.jpeg"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">Pinnacle</b></h3>
@@ -3115,7 +3116,7 @@
                 <v-img
                   class="white--text align-end"
                   width="200"
-                  src="hend.jpeg"
+                  src="/hend.jpeg"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">HENDRICKS</b></h3>
@@ -3130,7 +3131,7 @@
               >
                 <v-img
                   class="white--text align-end"
-                  src="pega.jpeg"
+                  src="/pega.jpeg"
                 />
                 <v-card-subtitle class="pb-0 text-center">
                   <h3><b class="text--primary">Pegasus</b></h3>
@@ -3145,7 +3146,7 @@
           <v-col cols="12" sm="12" lg="3">
             <v-container>
               <v-col align="center" justify="center">
-                <v-img src="airport.png" width="100" />
+                <v-img src="/airport.png" width="100" />
               </v-col>
             </v-container>
           </v-col>
