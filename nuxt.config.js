@@ -35,13 +35,15 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/fonts.css'
+    '~/assets/fonts.css',
+    'plyr/dist/plyr.css'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+  '~/plugins/vue-plyr'
   ],
   /*
   ** Auto import components
@@ -94,5 +96,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
+     server: {
+      port: 5000, // default: 3000
+      host: '0.0.0.0' // default: localhost
+    }
 }

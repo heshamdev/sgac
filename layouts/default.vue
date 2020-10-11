@@ -170,7 +170,7 @@ export default {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('~assets/fonts/Nunito-Light.ttf') format('truetype');
+  src: url('~assets/fonts/Nunito-Regular.ttf') format('truetype');
 }
 
 @font-face {

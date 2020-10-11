@@ -50,78 +50,21 @@
     <v-container>
       <hr>
     </v-container>
-    <v-container class="text-xl-h5">
-      <v-row>
+    <v-container class="text-xl-h5" >
+      <v-row @mouseover="hover = true" @mouseleave="hover = false">
         <v-col
-          style="padding: 20px;"
         >
           <h1 style="color: #424242">
             News
           </h1>
           <v-row>
             <v-carousel
-              cycle
+              :cycle="!hover"
               height="400"
               hide-delimiter-background
               show-arrows
               dark
             >
-              <v-carousel-item>
-                <v-row
-                  class="fill-height"
-                >
-                  <v-col sm="12" lg="6">
-                    <iframe
-                      class="frame-vid"
-                      width="100%"
-                      height="300"
-                      src="https://www.youtube.com/embed/2YwsH0TIDnw"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    />
-                  </v-col>
-                  <v-col sm="12" lg="6" style="color: black;">
-                    <h3>Integration of Egypt’s Transportation Plan 2030 with the New Silk Road Project</h3>
-                    <v-col justify="center" align="center">
-                      <img src="si.png">
-                    </v-col>
-                  </v-col>
-                </v-row>
-              </v-carousel-item>
-              <v-carousel-item>
-                <v-row
-                  align="center"
-                  class="fill-height"
-                >
-                  <v-col cols="12" sm="12" lg="6" align="center">
-                    <iframe
-                      class="frame-vid"
-                      height="300"
-                      width="100%"
-                      src="https://www.youtube.com/embed/sJHLPbAyXx0"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    />
-                  </v-col>
-                  <v-col
-                    cols="12"
-                    align="center"
-                    justify="center"
-                    sm="12"
-                    lg="6"
-                    style="color: black;"
-                  >
-                    <v-col>
-                      <img src="spc.png" width="45%;">
-                    </v-col>
-                    <h3 style="font-family: Tahoma,Helvetica,sans-serif;  color: #333; background-color: white;">
-                      <b>Dr. Khaled Abd El Ghaffar Minister of Higher Education and Scientific Research of Egypt Describes the New Project of The Italian Universities Campus in Egypt.</b>
-                    </h3>
-                  </v-col>
-                </v-row>
-              </v-carousel-item>
               <v-carousel-item>
                 <v-row
                   class="fill-height"
@@ -137,38 +80,6 @@
                     <p style="font-size: 90%; text-align: justify;text-justify: inter-word; padding-right:70px;">
                       Professor Alessandra Spremolla Briganti, Rector of Guglielmo Marconi University in Rome, Italy, Dr. Saad Mohamed Elgioshy, President of SGAC.SCP (SGAC For Education, Culture and Projects) and Prof. Vincenzo Naso, Director of CIRPS (Centro Interuniversitario di Ricerca Per 10 Sviluppo Sostenibile — Inter-university Research Centre for Sustainable Development), signed a memorandum of understanding that foresees the regulation of cultural, educational, academic and technical collaboration between the parties, in accordance with the provisions of the Egyptian Law no.162 of 2018 and with the Ministerial decree no. 4200 for 2018.
                     </p>
-                  </v-col>
-                </v-row>
-              </v-carousel-item>
-              <v-carousel-item>
-                <v-row
-                  class="fill-height"
-                >
-                  <v-col sm="12" lg="6">
-                    <v-col>
-                      <iframe
-                        class="frame-vid"
-                        width="100%"
-                        height="300"
-                        src="https://www.youtube.com/embed/mdx1bhLmE_g"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                      />
-                    </v-col>
-                  </v-col>
-                  <v-col
-                    cols="12"
-                    align="center"
-                    justify="center"
-                    sm="12"
-                    lg="6"
-                    style="color: black;"
-                  >
-                    <v-col>
-                      <img src="shell.png" width="45%">
-                    </v-col>
-                    <h3>Dr. Saad El-Gioshy, Chairman of the SGAC Group, participated in the Shell Entrepreneurship and Technology Conference.</h3>
                   </v-col>
                 </v-row>
               </v-carousel-item>
@@ -196,6 +107,82 @@
                 </v-row>
               </v-carousel-item>
             </v-carousel>
+          </v-row>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container>
+      <hr>
+    </v-container>
+        <v-container class="text-xl-h5">
+      <v-row>
+        <v-col
+          class="z-depth-3"
+          style="padding: 20px;"
+        >
+          <h1 class="hide-on-small-only" style="color: #424242">
+            Media
+          </h1>
+          <v-row>
+             <v-col
+              align="center"
+              justify="center"
+            >
+              <v-row>
+                <v-col>
+                 <vue-plyr>
+                      <div data-plyr-provider="youtube" data-plyr-embed-id="2YwsH0TIDnw" />
+                    </vue-plyr>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col>
+                  <p style="text-align: left;text-justify: inter-word;">Integration of Egypt’s Transportation Plan 2030 with the New Silk Road Project</p>
+                </v-col>
+              </v-row>
+            </v-col>
+            <v-divider
+              class="d-sm-none d-md-flex d-none d-sm-flex"
+              vertical
+            />
+            <v-col
+              align="center"
+              justify="center"
+            >
+              <v-row>
+                <v-col>
+                 <vue-plyr>
+                      <div data-plyr-provider="youtube" data-plyr-embed-id="mdx1bhLmE_g" />
+                    </vue-plyr>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col>
+                  <p style="text-align: left;text-justify: inter-word;">Dr. Saad El-Gioshy, Chairman of the SGAC Group, participated in the Shell Entrepreneurship and Technology Conference.</p>
+                </v-col>
+              </v-row>
+            </v-col>
+            <v-divider
+              class="d-sm-none d-md-flex d-none d-sm-flex"
+              vertical
+            />
+            <v-col
+              align="center"
+              justify="center"
+            >
+              <v-row>
+                <v-col>
+                   <vue-plyr>
+                      <div data-plyr-provider="youtube" data-plyr-embed-id="sJHLPbAyXx0" />
+                    </vue-plyr>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col>
+                  <p style="text-align: left ;text-justify: inter-word;">Dr. Khaled Abd El Ghaffar Minister of Higher Education and Scientific Research of Egypt Describes the New Project of The Italian Universities Campus in Egypt.</p>
+                </v-col>
+              </v-row>
+            </v-col>
           </v-row>
         </v-col>
       </v-row>
@@ -380,12 +367,14 @@
 </template>
 
 <script>
+
 export default {
 
   components: {
   },
   data () {
     return {
+      hover: false,
       index: null,
       items: [
         {
@@ -413,13 +402,13 @@ export default {
   box-sizing:border-box;
 }
 .frame-vid{
-  background-color:#ddc;
-  border:solid 1vmin #eee;
-  border-bottom-color:#bdbdbd;
-  border-left-color:#9e9e9e;
+  background-color:#00b3ff;
+  border:solid 1vmin #00b3ff;
+  border-bottom-color:#00b3ff;
+  border-left-color:#00b3ff;
   border-radius:2px;
-  border-right-color:#9e9e9e;
-  border-top-color:#757575;
+  border-right-color:#00b3ff;
+  border-top-color:#00b3ff;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   box-sizing:border-box;
   text-align:center;
