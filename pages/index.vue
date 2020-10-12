@@ -39,10 +39,10 @@
             </v-icon>
           </h1>
           <v-col justify="center" align-self="center">
-            <p style=" color: #333; background-color: white;text-align: justify;text-justify: inter-word; border-left: 3px solid black; padding-left: 10px;">
+            <span style=" color: #333; background-color: white;text-align: justify;text-justify: inter-word; border-left: 3px solid black; padding-left: 10px;">
               <b>SGAC Group</b> was established in the year 1998 by Dr. Saad Elgioshy, as an engineering group and now it includes many companies that work in various fields such as education, information technology and various fields of engineering consultancy such as airports, roads, bridges, tunnels, transportation, construction and infrastructure, and the group also includes companies working in The field of construction, contracting and smart road maintenance.
               Also, the group has many international alliances with multiple international entities in various fields, and the group is currently working on many projects in Egypt, the Gulf region and North Africa.
-            </p>
+            </span>
           </v-col>
         </v-col>
       </v-row>
@@ -77,9 +77,9 @@
                     <h2 style="text-align: justify;text-justify: inter-word; padding-right:70px;">
                       MOU Agreement: new GMU branch at the Italian University Campus in Egypt.
                     </h2>
-                    <p style="font-size: 90%; text-align: justify;text-justify: inter-word; padding-right:70px;">
+                    <span style="font-size: 90%; text-align: justify;text-justify: inter-word; padding-right:70px;">
                       Professor Alessandra Spremolla Briganti, Rector of Guglielmo Marconi University in Rome, Italy, Dr. Saad Mohamed Elgioshy, President of SGAC.SCP (SGAC For Education, Culture and Projects) and Prof. Vincenzo Naso, Director of CIRPS (Centro Interuniversitario di Ricerca Per 10 Sviluppo Sostenibile — Inter-university Research Centre for Sustainable Development), signed a memorandum of understanding that foresees the regulation of cultural, educational, academic and technical collaboration between the parties, in accordance with the provisions of the Egyptian Law no.162 of 2018 and with the Ministerial decree no. 4200 for 2018.
-                    </p>
+                    </span>
                   </v-col>
                 </v-row>
               </v-carousel-item>
