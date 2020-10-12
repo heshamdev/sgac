@@ -18,7 +18,7 @@
                   <b>Dr.Saad ElGioshy</b>
                 </div>
                 <div class="">
-                  Founder & Chairman of The Board
+                  Founder & Chairman of The Boards
                 </div>
               </v-col>
             </v-container>
