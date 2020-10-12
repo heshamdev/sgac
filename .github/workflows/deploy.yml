@@ -27,5 +27,3 @@ jobs:
         run: npm i
       - name: Building Applcation
         run: npm build
-      - name: Deploying
-        run: pm2 start npm -- start
